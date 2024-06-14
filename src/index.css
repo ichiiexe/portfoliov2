@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", "sans-serif";
+}
+
+a {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  padding: 1rem;
+}

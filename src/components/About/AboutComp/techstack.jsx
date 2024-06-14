@@ -9,11 +9,16 @@ export default function TechStack() {
     "Vite",
     "REST API",
     "Git",
+    "Github",
+    "Nodejs",
+    "Figma",
+    "Material UI",
+    "Bootstrap",
   ];
 
   return (
     <div className="w-1/3 py-8 ">
-      <h1>Techstack</h1>
+      <h1>Technologies</h1>
       <div className="flex flex-wrap gap-2">
         {stack.map(function (stack, i) {
           return (

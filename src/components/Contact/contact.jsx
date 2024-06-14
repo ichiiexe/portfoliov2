@@ -14,7 +14,7 @@ export default function ContactSection() {
         <hr className="w-full mx-2" />
       </div>
       <div className="flex flex-col ">
-        <div class="m-auto ">
+        <div className="m-auto ">
           <h1 class="text-5xl font-bold tracking-widest my-8">
             LET'S<span className="text-rose-600 text-6xl">.</span>GET
             <span className="text-rose-600 text-6xl">.</span>IN
@@ -25,7 +25,7 @@ export default function ContactSection() {
           <p>
             Whether you are starting a project, have business inquiries or just
             want to say hi, my inbox is always open so feel free to reach out
-            and I will get back to you as soon as possible. Lets Connect!
+            and I will get back to you as soon as possible.
           </p>
           <div className="flex justify-center items-center gap-2 my-10 ">
             <p className="text-rose-600 font-semibold">Lets Connect!</p>

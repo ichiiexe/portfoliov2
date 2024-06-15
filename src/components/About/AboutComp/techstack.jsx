@@ -17,8 +17,8 @@ export default function TechStack() {
   ];
 
   return (
-    <div className="w-1/3 py-8 ">
-      <h1>Technologies</h1>
+    <div className="py-8 md:py-0">
+      <h1>Techstack</h1>
       <div className="flex flex-wrap gap-2">
         {stack.map(function (stack, i) {
           return (

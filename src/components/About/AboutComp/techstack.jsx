@@ -2,18 +2,18 @@ export default function TechStack() {
   const stack = [
     "HTML",
     "CSS",
+    "REST API",
+    "Material UI",
+    "Bootstrap",
     "JavaScript",
     "TypeScript",
     "Reactjs",
     "Nextjs",
-    "Vite",
-    "REST API",
     "Git",
     "Github",
     "Nodejs",
     "Figma",
-    "Material UI",
-    "Bootstrap",
+    "Vite",
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function TechStack() {
         {stack.map(function (stack, i) {
           return (
             <button
-              className="text-xs p-1 px-2 border border-rose-600 rounded-sm"
+              className="text-xs tracking-wider p-1 px-2 border border-rose-600 rounded-sm transition 1s ease-in hover:bg-rose-600 hover:text-black hover:scale-125"
               key={i}
             >
               {stack}

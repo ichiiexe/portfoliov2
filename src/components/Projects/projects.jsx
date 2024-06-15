@@ -5,7 +5,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="text-white my-20 w-4/6 m-auto md:w-full md:p-2"
+      className="text-white w-4/6 pt-20 m-auto md:w-full md:p-2"
     >
       <motion.div
         variants={{

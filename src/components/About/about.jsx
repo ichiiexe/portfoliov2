@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="text-white my-20 w-4/6 m-auto md:w-full md:p-2"
+      className="text-white w-4/6 m-auto pt-20 md:w-full md:p-2"
     >
       <motion.div
         variants={{

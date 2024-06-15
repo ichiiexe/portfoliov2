@@ -56,7 +56,7 @@ export default {
       },
       animation: {
         blob: "blob 2.5s linear infinite",
-        hand: "hand 2s",
+        hand: "hand 2s infinite",
       },
     },
   },

@@ -3,7 +3,10 @@ import { InfoMotion } from "./HeroComp/InfoMotion";
 
 export default function HeroSection() {
   return (
-    <section className="text-white w-4/5 m-auto flex flex-col justify-center items-center">
+    <section
+      id="hero"
+      className="text-white w-4/5 m-auto flex flex-col justify-center items-center"
+    >
       <div className="relative flex py-14 z-0 lg:flex-col lg:items-center">
         <img
           src="/public/unnamed.jpg"

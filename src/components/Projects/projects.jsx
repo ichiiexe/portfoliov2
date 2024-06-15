@@ -3,7 +3,10 @@ import { ProjCard } from "./ProjectsComp/card";
 
 export default function ProjectsSection() {
   return (
-    <section className="text-white my-20 w-4/6 m-auto md:w-full md:p-2">
+    <section
+      id="projects"
+      className="text-white my-20 w-4/6 m-auto md:w-full md:p-2"
+    >
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 50 },

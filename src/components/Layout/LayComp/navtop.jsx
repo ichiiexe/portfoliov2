@@ -1,6 +1,7 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import DownloadIcon from "@mui/icons-material/Download";
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -41,9 +42,14 @@ export default function NavTop() {
         </a>
       </ul>
       <div className="flex items-center">
-        <button className="border-rose-600 py-2 px-4 border rounded-sm text-white">
+        <a
+          href="/public/resume.pdf"
+          download={"ajaresume"}
+          className="border-rose-600 py-2 px-4 border rounded-sm text-white"
+        >
           Resume
-        </button>
+          <DownloadIcon fontSize="small" />
+        </a>
       </div>
     </nav>
   );

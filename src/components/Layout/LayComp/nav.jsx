@@ -6,14 +6,14 @@ export default function NavAside() {
           &lt; <span className="text-white">/</span> &gt;
         </h1>
       </div>
-      <nav className="flex flex-col my-2 text-white text-lg">
-        <a href="#about" className="border-r border-rose-600">
+      <nav className="flex flex-col my-2  text-white text-lg">
+        <a href="#about" className="border-r menuLink border-rose-600">
           About
         </a>
-        <a href="#projects" className="border-r border-rose-600">
+        <a href="#projects" className="border-r menuLink border-rose-600">
           Projects
         </a>
-        <a href="#contact" className="border-r border-rose-600">
+        <a href="#contact" className="border-r menuLink border-rose-600">
           Contact
         </a>
       </nav>

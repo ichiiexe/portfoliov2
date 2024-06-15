@@ -17,16 +17,28 @@ const theme = createTheme({
 export default function NavTop() {
   return (
     <nav className="h-20 mx-6 flex justify-between sticky top-0 z-50 backdrop-blur-sm shadow-sm">
-      <ul className="text-gray-500/90 flex items-center gap-4 ">
-        <li>
+      <ul className="text-gray-500/90 flex items-center gap-4">
+        <a
+          className="hover:text-rose-600 transition 1.2s ease-in"
+          href="https://github.com/ichiiexe"
+          target="_blank"
+        >
           <GitHubIcon />
-        </li>
-        <li>
+        </a>
+        <a
+          className="hover:text-rose-600 transition 1.2s ease-in"
+          href="https://www.linkedin.com/in/ajabuy/"
+          target="_blank"
+        >
           <LinkedInIcon />
-        </li>
-        <li>
+        </a>
+        <a
+          className="hover:text-rose-600 transition 1.2s ease-in"
+          href="https://www.instagram.com/ichii.exe/"
+          target="_blank"
+        >
           <InstagramIcon />
-        </li>
+        </a>
       </ul>
       <div className="flex items-center">
         <button className="border-rose-600 py-2 px-4 border rounded-sm text-white">

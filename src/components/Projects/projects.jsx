@@ -1,5 +1,10 @@
 import { motion } from "framer-motion";
 import { ProjCard } from "./ProjectsComp/card";
+/* Add to Project 
+<button
+className="text-xs tracking-wider p-1 px-2 border border-rose-600 rounded-sm transition 1s ease-in hover:bg-rose-600 hover:text-black hover:scale-125"
+key={i}
+>{stack}</button> */
 
 export default function ProjectsSection() {
   return (

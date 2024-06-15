@@ -11,7 +11,7 @@ export default function Root() {
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
-        <HeroSection />
+        <ContactSection />
       </LayOut>
     </div>
   );

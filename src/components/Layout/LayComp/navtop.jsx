@@ -16,7 +16,7 @@ const theme = createTheme({
 
 export default function NavTop() {
   return (
-    <nav className="h-20 mx-6 flex justify-between sticky top-0 z-50 backdrop-blur-sm">
+    <nav className="h-20 mx-6 flex justify-between sticky top-0 z-50 backdrop-blur-sm shadow-sm">
       <ul className="text-gray-500/90 flex items-center gap-4 ">
         <li>
           <GitHubIcon />

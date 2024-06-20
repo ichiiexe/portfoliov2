@@ -6,10 +6,10 @@ export function LayOut({ children }) {
   return (
     <>
       <div className="flex">
-        <div className="sm:hidden">
+        <div className="fixed sm:hidden">
           <NavAside />
         </div>
-        <div className="w-full">
+        <div className="w-full ml-16 sm:m-0">
           <NavTop />
           <div className="">{children}</div>
         </div>

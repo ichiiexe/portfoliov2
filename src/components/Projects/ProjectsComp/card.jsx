@@ -4,7 +4,7 @@ import PublicIcon from "@mui/icons-material/Public";
 export function ProjCard(props) {
   return (
     <div className="max-w-full p-4 flex flex-col items-center">
-      <div className="flex-1 rounded-xl px-10 mb-6 pt-6 overflow-hidden bg-[#232323] md:max-w-lg">
+      <div className="max-h-64 rounded-xl px-10 mb-6 pt-6 overflow-hidden cursor-pointer bg-[#232323] md:max-w-lg">
         <img
           src={props.project}
           className="rounded-t-lg translate-y-10 transition ease-in 1s hover:translate-y-5 hover:rotate-3 hover:scale-105"

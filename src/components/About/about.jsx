@@ -49,7 +49,7 @@ export default function AboutSection() {
           className="flex-1 py-8 md:py-4"
         >
           <p className="py-4 md:text-md">
-            I begun my journey on June, 2023, learning basic Front-End languages
+            I begun my journey on June 2023, learning basic Front-End languages
             by myself, on October 2023 – driven by passion and desire for
             creating clean and minimalistic websites, enrolled and begun my
             education in KissMyButton Academy. I design clean, minimal, and
@@ -59,7 +59,7 @@ export default function AboutSection() {
           <p className="py-4 md:text-md">
             Before I transitioned my career from a Cook to a Developer, I had
             prior knowledge to HTML, CSS, and a little bit of C++, though it did
-            not interest me to pursuing Web Development until i visited a
+            not interest me to pursue Web Development until I visited a
             <a href="https://kissmybutton.gr"> website</a> that had a lot of
             animated UI that peaked my interest.
             <br />
@@ -67,7 +67,7 @@ export default function AboutSection() {
             CSS from the beginning, I enrolled in KissMyButton Academy, as I
             wanted to learn more about practical programming and how it is to be
             working in a company. KMB academy taught me advanced JavaScript,
-            TypeScript, Git, Github, and Reactjs to boost our skills.
+            TypeScript, Git, Github, and Reactjs to boost my skills.
           </p>
         </motion.div>
         <motion.div

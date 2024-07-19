@@ -14,7 +14,6 @@ export function LayOut({ children }) {
           <div className="">{children}</div>
         </div>
       </div>
-      ;
     </>
   );
 }

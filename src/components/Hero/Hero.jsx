@@ -9,7 +9,7 @@ export default function HeroSection() {
     >
       <div className="relative flex py-14 z-0 lg:flex-col lg:items-center">
         <img
-          src="/public/unnamed.jpg"
+          src="unnamed.jpg"
           className="max-w-[290px] max-h-[290px] border animate-blob -z-50 select-none "
         />
         <HeaderMotion />

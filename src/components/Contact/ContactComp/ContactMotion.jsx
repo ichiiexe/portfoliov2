@@ -77,13 +77,37 @@ export function ContactMotion() {
           >
             <p className="text-rose-600 font-semibold">Lets Connect!</p>
             <TrendingFlatIcon className="text-rose-600" />
-            <GitHubIcon />
-            <LinkedInIcon />
-            <InstagramIcon />
-            <EmailIcon />
+            <a
+              className="hover:text-rose-600 transition 1.2s ease-in"
+              href="https://github.com/ichiiexe"
+              target="_blank"
+            >
+              <GitHubIcon />
+            </a>
+            <a
+              className="hover:text-rose-600 transition 1.2s ease-in"
+              href="https://www.linkedin.com/in/ajabuy/"
+              target="_blank"
+            >
+              <LinkedInIcon />
+            </a>
+            <a
+              className="hover:text-rose-600 transition 1.2s ease-in"
+              href="https://www.instagram.com/ichii.exe/"
+              target="_blank"
+            >
+              <InstagramIcon />
+            </a>
+            <a
+              className="hover:text-rose-600 transition 1.2s ease-in cursor-pointer"
+              onClick={() => (window.location = "mailto:jeffabuy@gmail.com")}
+            >
+              <EmailIcon />
+            </a>
           </motion.div>
         </div>
       </div>
     </>
   );
 }
+<a></a>;

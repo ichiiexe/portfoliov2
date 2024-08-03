@@ -19,10 +19,18 @@ export function ProjCard(props) {
           <h1 className="font-bold text-xl text-nowrap">{props.title}</h1>
           <hr className="border-1 border-white/20 w-full mx-4" />
           <div className="flex gap-2">
-            <a target="_blank" href={props.ghlink}>
+            <a
+              className="hover:text-rose-600 transition 1.2s ease-in"
+              target="_blank"
+              href={props.ghlink}
+            >
               <GitHubIcon />
             </a>
-            <a target="_blank" href={props.link}>
+            <a
+              className="hover:text-rose-600 transition 1.2s ease-in"
+              target="_blank"
+              href={props.link}
+            >
               <PublicIcon />
             </a>
           </div>

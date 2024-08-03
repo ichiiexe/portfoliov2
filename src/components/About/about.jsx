@@ -60,8 +60,11 @@ export default function AboutSection() {
             Before I transitioned my career from a Cook to a Developer, I had
             prior knowledge to HTML, CSS, and a little bit of C++, though it did
             not interest me to pursue Web Development until I visited a
-            <a href="https://kissmybutton.gr"> website</a> that had a lot of
-            animated UI that peaked my interest.
+            <a href="https://kissmybutton.gr" className="text-rose-600">
+              {" "}
+              website
+            </a>{" "}
+            that had a lot of animated UI that peaked my interest.
             <br />
             On September, I decided to self-teach myself basic HTML and advanced
             CSS from the beginning, I enrolled in KissMyButton Academy, as I

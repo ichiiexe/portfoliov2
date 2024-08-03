@@ -19,6 +19,7 @@ export default function ProjectsSection() {
       showMe.start("visible");
     }
   }, [isInView]);
+
   return (
     <section
       id="projects"
@@ -55,7 +56,13 @@ export default function ProjectsSection() {
           project="anime-app.png"
           title="Anime Stream"
           technology="Swiper js — TailwindCSS — Javascript "
-          info="An anime streaming website that leverages the power of Tailwind CSS, Swiper JS, and Consumet API to deliver a captivating viewing experience. With Tailwind CSS, the site boasts a modern and responsive design, ensuring seamless navigation and aesthetic appeal across various devices. Swiper JS enhances the user interface with interactive sliders and smooth transitions, allowing visitors to effortlessly browse through a vast library of anime titles. By integrating Consumet API, the website provides up-to-date information on anime series, episodes, and recommendations, enriching the user experience with personalized content. This synergy of Tailwind CSS, Swiper JS, and Consumet API results in a visually stunning and feature-rich anime streaming platform that caters to the needs of anime enthusiasts worldwide. "
+          info="An anime streaming website that leverages the power of Tailwind CSS, 
+          Swiper JS, and Consumet API to deliver a captivating viewing experience. 
+          With Tailwind CSS, the site boasts a modern and responsive design, ensuring seamless 
+          navigation and aesthetic appeal across various devices. Swiper JS enhances the user interface 
+          with interactive sliders and smooth transitions, allowing visitors to effortlessly browse 
+          through a vast library of anime titles. By integrating Consumet API, the website provides up-to-date information 
+          on anime series, episodes, and recommendations, enriching the user experience with personalized content."
         />
         <ProjCard
           project="portfolio.png "
@@ -72,7 +79,11 @@ courses."
           project="splitter-tipper.png"
           title="Splitter-Tipper"
           technology="Swiper js — TailwindCSS — Javascript "
-          info="A tip splitter application crafted with the powerful combination of Tailwind CSS and JavaScript, offering a seamless user experience.Users can effortlessly input the total bill amount, specify the number of individuals sharing the bill, and dynamically see the cost breakdown in real-time through interactive JavaScript functionalities. The application also allows users to customize tip percentages or amounts, further enhancing its versatility.  This app is created with Tailwind CSS and JavaScript not only to simplify the process of splitting bills but to also provide an engaging and efficient way to manage group expenses."
+          info="A tip splitter application crafted with the powerful combination of 
+          Tailwind CSS and JavaScript, offering a seamless user experience.Users can effortlessly input the total bill amount, 
+          specify the number of individuals sharing the bill, and dynamically see the cost breakdown in real-time through interactive JavaScript functionalities. 
+          The application also allows users to customize tip percentages or amounts, further enhancing its versatility.  
+          This app is created with Tailwind CSS and JavaScript not only to simplify the process of splitting bills but to also provide an engaging and efficient way to manage group expenses."
         />
         <ProjCard
           project="weatherapp.png "

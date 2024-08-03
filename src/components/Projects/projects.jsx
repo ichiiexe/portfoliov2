@@ -65,6 +65,8 @@ export default function ProjectsSection() {
           on anime series, episodes, and recommendations, enriching the user experience with personalized content."
         />
         <ProjCard
+          link="https://ichiiexe.github.io/portfolio-new/"
+          ghlink="https://github.com/ichiiexe/portfolio-new"
           project="portfolio.png "
           title="Portfolio"
           technology="Swiper js — TailwindCSS — Javascript "

@@ -43,8 +43,8 @@ export default function NavTop() {
       </ul>
       <div className="flex items-center">
         <a
-          href="/public/resume.pdf"
-          download={"ajaresume"}
+          href="resume.pdf"
+          download
           className="border-rose-600 py-2 px-4 border rounded-sm text-white"
         >
           Resume
